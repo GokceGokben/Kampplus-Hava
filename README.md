@@ -270,6 +270,22 @@ APK çıktısı: `app/build/outputs/apk/debug/app-debug.apk`
 
 > API anahtarı veya ek yapılandırma gerekmez; yalnızca internet bağlantısı yeterlidir.
 
+### Hata ayıklama (Logcat)
+
+Şehir listesinde (favoriler ve konum önerisi kartı dahil) bir ile dokunduğunuzda uygulama,
+seçilen ilin adını ve koordinatlarını Logcat'e yazar. Bu sayede kartın doğru ile ve doğru
+koordinatlarla tahmin ekranına yönlendirdiğini hızlıca doğrulayabilirsiniz.
+
+| Alan | Değer |
+|---|---|
+| Etiket (tag) | `HavaNavHost` |
+| Seviye | Debug (`Log.d`) |
+| Örnek çıktı | `City clicked: Ankara (39.91987, 32.85427)` |
+
+Android Studio'da **Logcat** penceresinin arama kutusuna `tag:HavaNavHost` yazarak yalnızca bu
+kayıtları süzebilirsiniz. Mesaj kodda İngilizce yazılmıştır (`City clicked: ...`); ekranda
+gösterilen bir metin değildir. Kayıt `HavaNavHost.kt` içindeki `onCityClick` bloğundan gelir.
+
 ---
 
 ## Testler
