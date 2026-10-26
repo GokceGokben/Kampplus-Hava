@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Kampplus Hava</string>
+    <string name="city_list_title">Hava — Şehirler</string>
+    <string name="search_hint">Şehir ara...</string>
+    <string name="search_content_description">Şehir ara</string>
+    <string name="clear_search">Aramayı temizle</string>
+    <string name="location_suggestion_title">Konumunuza Göre Öneri</string>
+    <string name="location_suggestion_subtitle">Konumunuzdan algılandı</string>
+    <string name="location_prompt_text">Yakınınızdaki ilin hava durumunu görün</string>
+    <string name="location_prompt_subtitle">Konum izni verin; konum yalnızca bu cihazda kullanılır</string>
+    <string name="location_outside_text">Konumunuz Türkiye dışında görünüyor</string>
+    <string name="location_outside_subtitle">Öneri yalnızca Türkiye illeri için yapılır. Tekrar denemek için dokunun</string>
+    <string name="location_unavailable_text">Konumunuz alınamadı</string>
+    <string name="location_unavailable_subtitle">Cihazın konum servisinin açık olduğundan emin olun ve tekrar denemek için dokunun</string>
+    <string name="location_icon">Konum</string>
+    <string name="open_weather">Hava durumunu aç</string>
+    <string name="city_not_found">Aradığınız il bulunamadı. Lütfen yazdığınızı kontrol edin veya farklı bir il arayın.</string>
+    <string name="no_cities_available">Henüz gösterilecek şehir bulunamadı.</string>
+    <string name="no_search_results">Aramanızla eşleşen şehir bulunamadı.</string>
+    <string name="no_results_icon">Sonuç yok</string>
+    <string name="error_icon">Hata</string>
+    <string name="error_loading_cities">Şehirler yüklenirken bir hata oluştu.</string>
+    <string name="error_loading_weather">Hava durumu verisi alınamadı.</string>
+    <string name="error_no_connection">İnternet bağlantısı kurulamadı. Bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="no_weather_data">Hava durumu verisi bulunamadı.</string>
+    <string name="retry">Tekrar Dene</string>
+    <string name="back">Geri</string>
+
+    <string name="favorites_title">Favoriler</string>
+    <string name="all_cities_title">Tüm Şehirler</string>
+    <string name="add_favorite">Favorilere ekle</string>
+    <string name="remove_favorite">Favorilerden çıkar</string>
+
+    <string name="hourly_forecast">Saatlik Tahmin</string>
+    <string name="temperature_trend">Sıcaklık Trendi</string>
+    <string name="daily_forecast">7 Günlük Tahmin</string>
+    <string name="details_title">Ayrıntılar</string>
+    <string name="now">Şimdi</string>
+    <string name="today">Bugün</string>
+    <string name="tomorrow">Yarın</string>
+    <string name="toggle_unit">Sıcaklık birimini değiştir</string>
+    <string name="feels_like">Hissedilen: %1$s</string>
+
+    <string name="wind">Rüzgar</string>
+    <string name="humidity">Nem</string>
+    <string name="precipitation">Yağış</string>
+    <string name="uv_index">UV İndeksi</string>
+    <string name="pressure">Basınç</string>
+    <string name="visibility">Görüş</string>
+    <string name="sunrise">Gün Doğumu</string>
+    <string name="sunset">Gün Batımı</string>
+    <string name="wind_value">%1$s km/s</string>
+    <string name="humidity_value">%%%1$d</string>
+    <string name="precipitation_value">%1$s mm</string>
+    <string name="pressure_value">%1$d hPa</string>
+    <string name="visibility_value">%1$s km</string>
+
+    <string name="uv_low">Düşük</string>
+    <string name="uv_moderate">Orta</string>
+    <string name="uv_high">Yüksek</string>
+    <string name="uv_very_high">Çok Yüksek</string>
+    <string name="uv_extreme">Aşırı</string>
+
+    <string name="pull_to_refresh">Yenilemek için aşağı çekin</string>
+    <string name="release_to_refresh">Yenilemek için bırakın</string>
+    <string name="refreshing">Yenileniyor...</string>
+    <string name="refreshed">Yenilendi</string>
+
+    <string name="weather_clear">Açık</string>
+    <string name="weather_partly_cloudy">Parçalı Bulutlu</string>
+    <string name="weather_fog">Sisli</string>
+    <string name="weather_drizzle">Çiseleyen Yağmur</string>
+    <string name="weather_rain">Yağmurlu</string>
+    <string name="weather_snow">Kar Yağışlı</string>
+    <string name="weather_thunder">Gökgürültülü Fırtına</string>
+    <string name="weather_unknown">Bilinmeyen (%1$d)</string>
+</resources>

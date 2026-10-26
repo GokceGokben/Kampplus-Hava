@@ -1,0 +1,19 @@
+<!-- Meteocons by Bas Milius (MIT) — https://github.com/basmilius/weather-icons -->
+<!-- Adapted for dark theme: dark-grey mark lightened for contrast. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path android:pathData="M21.5,32a10.5,10.5 0 1,0 21,0a10.5,10.5 0 1,0 -21,0Z" android:strokeColor="#FFF8AF18" android:strokeWidth="0.5" android:strokeMiterLimit="10">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="26.75" android:startY="22.91" android:endX="37.25" android:endY="41.09">
+                <item android:offset="0" android:color="#FFFBBF24"/>
+                <item android:offset="0.45" android:color="#FFFBBF24"/>
+                <item android:offset="1" android:color="#FFF59E0B"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:pathData="M32,15.71V9.5m0,45V48.29M43.52,20.48l4.39-4.39M16.09,47.91l4.39-4.39m0-23-4.39-4.39M47.91,47.91l-4.39-4.39M15.71,32H9.5m45,0H48.29" android:strokeColor="#FFFBBF24" android:strokeWidth="3" android:strokeLineCap="round" android:strokeMiterLimit="10"/>
+</vector>
