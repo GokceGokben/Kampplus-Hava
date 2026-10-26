@@ -24,7 +24,7 @@
 
 | Şehir listesi | Tahmin ekranı | Karanlık tema |
 |:--:|:--:|:--:|
-| <img src="docs/screenshots/cities.png" width="240" alt="Şehir listesi"> | <img src="docs/screenshots/forecast.png" width="240" alt="Tahmin ekranı"> | <img src="docs/screenshots/dark.png" width="240" alt="Karanlık tema"> |
+| ![Şehir listesi](docs/screenshots/cities.png) | ![Tahmin ekranı](docs/screenshots/forecast.png) | ![Karanlık tema](docs/screenshots/dark.png) |
 
 ---
 
